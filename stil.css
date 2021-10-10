@@ -1,0 +1,115 @@
+* {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Arial, helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+    border: solid 1px;
+    border-bottom-color: orangered;
+    border-bottom-width: 3px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding-right: 150px;
+  text-decoration: none;
+}
+
+.active {
+    color: #e8491d;
+}
+li a:hover {
+    background: #ccc;
+}
+
+.baner {
+    height: 500px;
+    width: 100%;
+}
+
+.bilten {
+    height: 150px;
+    width: 100%;
+    background: #565656;
+}
+
+.prvaprijava {
+    float: left;
+    padding-top: 50px;
+    padding-left: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.drugaprijava {
+    float: right;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+button {
+    background: #e8491d;
+    color: white;
+    width: 80px;
+    height: 29px;
+    border-style: none;
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.logo {
+    display: inline;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.container-fluid {
+    width: 62%;
+    text-align: justify;
+}
+
+aside img {
+    float: right;
+    padding left: 500px;
+    height: 50px;
+    width: 10%;
+}
+article {
+    background-color: darkgray;
+}
+footer {
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.opel1 {
+    float: left;
+}
+.opel2 {
+    float: right;
+}
+form {
+    border: solid 1px;
+}
+fieldset {padding-left: 20px;}
